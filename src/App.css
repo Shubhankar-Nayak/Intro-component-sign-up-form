@@ -1,0 +1,27 @@
+body{
+  background-color: hsl(0, 100%, 74%);
+}
+
+.form{
+  box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.20);
+}
+
+.trial {
+  box-shadow: 0px 7px 3px 0px rgba(0,0,0,0.20);
+}
+
+@media screen and (max-width: 376px) {
+  body{
+    background-image: url("./images/bg-intro-mobile.png");
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  body{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-position: center;
+    background-repeat: repeat;
+  }
+}
